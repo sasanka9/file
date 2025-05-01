@@ -1,0 +1,3 @@
+I noticed that our requirements.txt currently specifies rq version 1.60. However, we need to update it to version 1.71 to meet our project's requirements. Additionally, we are experiencing issues with Stargate not installing the collected packages due to the current rq version. Updating rq to version 1.71 should resolve this issue.
+
+Could you please assist with this update at your earliest convenience?
