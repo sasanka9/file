@@ -1,0 +1,3 @@
+I noticed that our requirements.txt currently specifies rq version 1.60. However, we need to update it to version 1.71 to meet our project's requirements. Additionally, we are experiencing issues with Stargate not installing the collected packages and overriding the Docker image. This issue seems to stem from the requirements.txt file, which lists grpc version 1.60, but we need to install version 1.71.
+
+I assume that requirements.txt is a constant while creating all Docker images, which might be causing the override issue. Could you please look into this and assist with updating the rq version to 1.71 at your earliest convenience?
