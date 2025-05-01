@@ -1,0 +1,4 @@
+
+SELECT InstanceId
+FROM SCHEMA("AWS/EC2", InstanceId)
+WHERE InstanceType LIKE 'g%' OR InstanceType LIKE 'p%'
