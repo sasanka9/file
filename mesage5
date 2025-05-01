@@ -1,0 +1,1 @@
+aws ec2 describe-instances --query "Reservations[*].Instances[?starts_with(InstanceType, 'p') || starts_with(InstanceType, 'g')].[InstanceId,InstanceType]"
